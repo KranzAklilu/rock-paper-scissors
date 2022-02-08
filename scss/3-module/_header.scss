@@ -1,0 +1,22 @@
+.header {
+  .list {
+    font-weight: bold;
+  }
+  .score {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $dark_text;
+    padding: 10px 25px;
+    border-radius: 5px;
+    &__title {
+      color: $score_text;
+      font-size: 12px;
+    }
+    &__amount {
+      font-size: 36px;
+    }
+  }
+}

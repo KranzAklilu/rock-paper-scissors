@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+    <script src="./src/main.js" type="module" defer></script>
+    <link rel="stylesheet" href="./scss/main.scss" />
+  </head>
+  <body>
+    <header class="header">
+      <ul class="list">
+        <li class="list__item">rock</li>
+        <li class="list__item">paper</li>
+        <li class="list__item">scissors</li>
+        <li class="list__item">lizard</li>
+        <li class="list__item">spock</li>
+      </ul>
+      <div class="score">
+        <span class="score__title">score</span>
+        <span class="score__amount">0</span>
+      </div>
+    </header>
+    <main class="game">
+      <div class="choise choise__scissors">
+        <img
+          class="game__icon"
+          src="./images/icon-scissors.svg"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <div class="choise choise__spock">
+        <img
+          class="game__icon"
+          src="./images/icon-spock.svg"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <div class="choise choise__paper">
+        <img
+          class="game__icon"
+          src="./images/icon-paper.svg"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <div class="choise choise__lizard">
+        <img
+          class="game__icon"
+          src="./images/icon-lizard.svg"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <div class="choise choise__rock">
+        <img class="game__icon" src="./images/icon-rock.svg" alt="" srcset="" />
+      </div>
+      <div class="choise choise__house-pick"></div>
+      <div class="game__info">
+        <p class="game__result"></p>
+        <button class="game__btn" type="button">play again</button>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+  padding: 10px;
+  margin: 50px auto 0;
+  color: #fff;
+  border: 2px solid $header_outline;
+  border-radius: 5px;
+  text-transform: uppercase;
+}

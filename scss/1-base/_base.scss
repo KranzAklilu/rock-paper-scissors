@@ -1,0 +1,23 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  box-sizing: border-box;
+  background-image: radial-gradient(
+    ellipse at 50%,
+    $bg_radial_gradient_start,
+    $bg_radial_gradient_end
+  );
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
