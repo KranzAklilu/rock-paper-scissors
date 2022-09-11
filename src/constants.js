@@ -1,6 +1,6 @@
 const createImg = (elm) => {
   const img = document.createElement("img");
-  img["src"] = `../images/icon-${elm}.svg`;
+  img["src"] = `/images/icon-${elm}.svg`;
   return img;
 };
 export const RULES = {
