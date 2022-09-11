@@ -6,6 +6,7 @@ import {
   housePickDom,
   scoreDom,
 } from "./elements";
+import img1 from "../images/bg-pentagon.svg";
 import { RULES } from "./constants";
 const generateRandomNumber = () => {
   let random = (Math.random() * 10).toFixed(0);
@@ -15,6 +16,7 @@ const generateRandomNumber = () => {
   return parseInt(random);
 };
 
+console.log(img1);
 let score = 0;
 const gameState = {
   win: false,

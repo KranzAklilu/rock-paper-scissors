@@ -1,6 +1,14 @@
+import paper from "../images/icon-paper.svg";
+import scissors from "../images/icon-scissors.svg";
+import rock from "../images/icon-rock.svg";
+import lizard from "../images/icon-lizard.svg";
+import spock from "../images/icon-spock.svg";
+
 const createImg = (elm) => {
   const img = document.createElement("img");
-  img["src"] = `/images/icon-${elm}.svg`;
+  const allSvgs = { paper, scissors, rock, lizard, spock };
+  console.log(allSvgs, elm);
+  img["src"] = allSvgs[elm];
   return img;
 };
 export const RULES = {
